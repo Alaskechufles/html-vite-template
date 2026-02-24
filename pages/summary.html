@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="module" src="../js/summary.js"></script>
+</head>
+<body class="h-screen bg-white flex justify-center items-center">
+    <main class="max-w-xl md:max-w-3xl flex flex-col md:flex-row bg-white rounded-4xl  shadow-gray-300 shadow-2xl">
+        <section class="bg-linear-to-b from-[#6d49fe] to-[#302be8] rounded-b-4xl md:rounded-4xl flex flex-col items-center justify-center px-16 pt-8 pb-10 md:w-1/2">
+            <h1 class=" text-xl text-[#cabffe]">Your Results</h1>
+            <div class="w-40 h-40 mt-8 flex flex-col items-center justify-center bg-linear-to-b from-[#4c24cc] to-[#4835f0]  rounded-full text-white">
+                <span id="resultado" class="text-6xl font-bold">76</span>
+                <span>of 100</span>
+            </div>
+            <h2 class="mt-6 mb-3 text-white text-3xl font-semibold">Great</h2>
+            <p class=" text-[#bbbbfe] text-center font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam  </p>
+        </section>
+        <section class="bg-white p-7 md:w-1/2 rounded-r-4xl">
+            <h2 class="text-[#545c69] text-2xl font-bold mb-7">Summary</h2>
+            <div class="flex flex-col gap-5">
+                <div class=" bg-[#fef5f6] p-4 flex justify-between rounded-lg">
+                    <div>
+                        <span>⚡</span><span class="text-lg font-semibold text-[#e06970]">Reaction</span>
+                    </div>
+                    <div class=" font-bold text-lg flex gap-2">
+                        <input id="reactionScore" class="w-20" type="number"><span class="text-[#a7a1ad]">/</span><span class=" text-[#a7a1ad]">100</span>
+                    </div>
+                </div>
+                <div class=" bg-[#fef9f3] p-4 flex justify-between rounded-lg">
+                    <div>
+                        <span>⚡</span><span class="text-lg font-semibold text-[#e06970]">Memory</span>
+                    </div>
+                    <div class=" font-bold text-lg flex gap-2">
+                        <input id="memoryScore" class="w-20" type="number"><span class="text-[#a7a1ad]">/</span><span class=" text-[#a7a1ad]">100</span>
+                    </div>
+                </div>
+                <div class=" bg-[#f1fcf8] p-4 flex justify-between rounded-lg">
+                    <div>
+                        <span>⚡</span><span class="text-lg font-semibold text-[#e06970]">Verbal</span>
+                    </div>
+                    <div class=" font-bold text-lg flex gap-2">
+                        <input id="verbalScore" class="w-20" type="number"><span class="text-[#a7a1ad]">/</span><span class=" text-[#a7a1ad]">100</span>
+                    </div>
+                </div>
+                <div class=" bg-[#f3f3fd] p-4 flex justify-between rounded-lg">
+                    <div>
+                        <span>⚡</span><span class="text-lg font-semibold text-[#e06970]">Visual</span>
+                    </div>
+                    <div class=" font-bold text-lg flex gap-2">
+                        <input id="visualScore" class="w-20" type="number"><span class="text-[#a7a1ad]">/</span><span class=" text-[#a7a1ad]">100</span>
+                    </div>
+                </div>     
+            </div>
+            <button id="calculate" class=" m-4 w-11/12 h-15 bg-[#303b59] text-xl text-white rounded-4xl">Continue</button>
+        </section>
+    </main>
+</body>
+</html>

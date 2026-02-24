@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/menu.js" type="module"></script>
+</head>
+
+<body class="bg-black p-5 text-white h-screen text-7xl font-extrabold">
+    <header class=" bg-red-400 flex items-center justify-between py-2 px-6">
+        <img src="https://placecats.com/30/30" alt="un gato de icono">
+        <h1>My Page</h1>
+        <nav class="block md:hidden">
+            <button id="burger">
+                🍔
+            </button>
+        </nav>
+        <nav class="hidden md:block">
+            <ul class="text-lg flex gap-5">
+                <li><a href="#purple">Purple</a></li>
+                <li><a href="#orange">Orange</a></li>
+                <li><a href="#blue">Blue</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <nav id="nav" class=" hidden md:hidden">
+            <ul class="text-lg flex justify-center gap-5 bg-amber-300 ">
+                <li><a href="#purple">Purple</a></li>
+                <li><a href="#orange">Orange</a></li>
+                <li><a href="#blue">Blue</a></li>
+            </ul>
+        </nav>
+        <section id="purple" class="h-screen  bg-purple-600 p-4 flex flex-col md:flex-row gap-4 ">
+            <section
+                class=" h-1/2 md:h-auto bg-red-400 flex flex-col md:flex-row p-2 md:w-2/3 md:flex-wrap items-center justify-center">
+                <div class=" bg-green-400 h-1/3 md:h-1/2 w-full md:w-1/2">1</div>
+                <div class=" bg-green-400 h-1/3 md:h-1/2 w-full md:w-1/2">2</div>
+                <div class=" bg-green-400 h-1/3 md:h-1/2 w-full">3</div>
+            </section>
+            <aside class="h-1/2 md:h-auto bg-red-400 p-2 flex flex-row-reverse md:flex-col gap-2 md:w-1/3">
+                <div class=" bg-green-400 w-1/2 md:w-full md:h-1/2">1</div>
+                <div class=" bg-green-400 w-1/2 md:w-full md:h-1/2">2</div>
+            </aside>
+        </section>
+        <section id="orange" class="h-screen  bg-amber-600 p-4 flex flex-col md:flex-row gap-4 ">
+            <section
+                class=" h-1/2 md:h-auto bg-red-400 flex flex-col md:flex-row p-2 md:w-2/3 md:flex-wrap items-center justify-center">
+                <div class=" bg-green-400 h-1/3 md:h-1/2 w-full md:w-1/2">1</div>
+                <div class=" bg-green-400 h-1/3 md:h-1/2 w-full md:w-1/2">2</div>
+                <div class=" bg-green-400 h-1/3 md:h-1/2 w-full">3</div>
+            </section>
+            <aside class="h-1/2 md:h-auto bg-red-400 p-2 flex flex-row-reverse md:flex-col gap-2 md:w-1/3">
+                <div class=" bg-green-400 w-1/2 md:w-full md:h-1/2">1</div>
+                <div class=" bg-green-400 w-1/2 md:w-full md:h-1/2">2</div>
+            </aside>
+        </section>
+        <section id="blue" class="h-screen  bg-blue-700 p-4 flex flex-col md:flex-row gap-4 ">
+            <section
+                class=" h-1/2 md:h-auto bg-red-400 flex flex-col md:flex-row p-2 md:w-2/3 md:flex-wrap items-center justify-center">
+                <div class=" bg-green-400 h-1/3 md:h-1/2 w-full md:w-1/2">1</div>
+                <div class=" bg-green-400 h-1/3 md:h-1/2 w-full md:w-1/2">2</div>
+                <div class=" bg-green-400 h-1/3 md:h-1/2 w-full">3</div>
+            </section>
+            <aside class="h-1/2 md:h-auto bg-red-400 p-2 flex flex-row-reverse md:flex-col gap-2 md:w-1/3">
+                <div class=" bg-green-400 w-1/2 md:w-full md:h-1/2">1</div>
+                <div class=" bg-green-400 w-1/2 md:w-full md:h-1/2">2</div>
+            </aside>
+        </section>
+    </main>
+    <footer class="bg-red-400 p-2 flex flex-col  md:flex-row-reverse  gap-2">
+        <div class="h-20 bg-green-400 md:h-full md:w-1/2">1</div>
+        <div class="h-20 bg-green-400 md:h-full md:w-1/2">2</div>
+    </footer>
+</body>
+
+</html>

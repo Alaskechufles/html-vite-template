@@ -11,7 +11,12 @@ export default defineConfig({
       input:{
         main: resolve(__dirname,'index.html'),
         blog: resolve(__dirname,'pages/blog-card.html'),
-        qr: resolve(__dirname, 'pages/qr-card.html')
+        qr: resolve(__dirname, 'pages/qr-card.html'),
+        summary: resolve(__dirname, 'pages/summary.html'),
+        template: resolve(__dirname, 'pages/template.html'),
+        estructuras: resolve(__dirname, 'pages/estructuras.html'),
+        dom: resolve(__dirname, 'pages/dom.html'),
+        calculadoraEdad: resolve(__dirname, 'pages/calculadoraEdad.html')
       }
     }
   }
